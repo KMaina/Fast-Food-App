@@ -16,6 +16,7 @@ input[type=password]{
 	/*border-top-style: none;*/
 }
 
+
 /* Sliding Menu*/
 #menu{
 	position: fixed;
@@ -136,6 +137,10 @@ input[type=password]{
 	font-size: 0.75rem;
 }
 
+.copyright{
+	color: #47fff2;
+}
+
 /* Sign Up Page */
 #sign-up-main{
 	height: 90vh;
@@ -246,4 +251,29 @@ input[type=password]{
 
 .food-input input[type=text]{
 	width: 30px;
+}
+
+/*user-order-history.html styles*/
+.order-date{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.order-number{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.order-desc{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.order-action{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
 }
