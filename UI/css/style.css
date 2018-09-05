@@ -8,7 +8,13 @@ a {
 	text-decoration: none;
 }
 
-
+input{
+	border: 1px solid #999;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	font-family: 'Mukta', sans-serif;
+	/*border-top-style: none;*/
+}
 /* index.html styles */
 .body-wrapper{
 	height: 100%;
@@ -75,4 +81,40 @@ a {
 
 .footer-content small{
 	font-size: 0.75rem;
+}
+
+/* Sign Up Page */
+#sign-up-main{
+	height: 90vh;
+	text-align: center;
+	background-color: #efe1f4;
+}
+
+.sign-up-content{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.sign-up-content h1{
+	font-size: 2.5rem;
+	padding-bottom: 20px;
+}
+
+.sign-up-content p{
+	color: #000;
+	padding-bottom: 20px;
+}
+
+.submit{
+	padding: 3px 60px 3px 60px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	background-color: #47fff2;
+}
+
+.submit:hover{
+	border: 1px solid #47fff2;
+	background-color: #fff;
+	color: #47fff2;
 }
