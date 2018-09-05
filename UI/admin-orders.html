@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Admin- Orders Page</title>
+</head>
+<body>
+	<div class="main-wrapper">
+		<nav id="menu">
+			<div class="toggle-btn" onclick="toggleSidebar()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li>
+					<div><img src="img/admin.jpg" class="avi"></div>
+					<p>Hello, Ken <span class="copyright">(Admin)</span></p>
+					<p><a href="log-out.html">Log out</a></p>
+				</li>
+				<ul>
+					<li><a href="admin-orders.html" class="">Orders</a></li>
+					<li><a href="admin-order-edit.html" class="sublink">Accept/Decline Orders</a></li>
+					<li><a href="admin-order-delivered" class="sublink">Order Status</a></li>
+				</ul>
+				<ul>
+					<li><a href="admin-food.html">Food Items</a></li>
+					<li><a href="admin-add-food.html" class="sublink">Add Food Item</a></li>
+					<li><a href="admin-edit-food.html" class="sublink">Edit/Delete Food Item</a></li>
+				</ul>
+				
+			</ul>
+		</nav>
+		<div class="admin-main">
+			<h1>Orders Page</h1>
+			<p>See all orders that have been made that are either pending, have been approved or declined.</p>
+		</div>
+		<div class="flex-container">	
+			<div class="admin-order-date"><p>Date</p></div>
+			<div class="admin-order-number"><p>Order Number</p></div>
+			<div class="admin-order-desc"><p>Order Particulars</p></div>
+			<div class="admin-order-user"><p>Customer</p></div>
+			<div class="admin-order-action"><p>Action</p></div>
+		</div>
+		<br>
+		<div class="flex-container">
+			<div class="admin-order-date"><p>14 July 2018</p></div>
+			<div class="admin-order-number"><p><a href="admin-order-details.html">1</a></p></div>
+			<div class="admin-order-desc">
+				<p>Hamburger: 2 meals</p>
+				<p>Chicken wings: 2 meals</p>
+			</div>
+			<div class="admin-order-user"><p><a href="user-order-history.html">Mario</a></p></div>
+			<div class="admin-order-action"><p><a href="">Accepted</a></p></div>
+		</div>
+		<br>
+		<div class="flex-container">
+			<div class="admin-order-date"><p>28 August 2018</p></div>
+			<div class="admin-order-number"><p><a href="admin-order-details.html">2</a></p></div>
+			<div class="admin-order-desc">
+				<p>Hamburger: 2 meals</p>
+				<p>Chicken wings: 2 meals</p>
+				<p>Pizza wings: 1 meals</p>
+			</div>
+			<div class="admin-order-user"><p><a href="user-order-history.html">Mario</a></p></div>
+			<div class="admin-order-action"><p><a href="admin-order-edit.html">Declined</a></p></div>
+		</div>
+		<br>
+		<div class="flex-container">
+			<div class="admin-order-date"><p>9 July 2018</p></div>
+			<div class="admin-order-number"><p><a href="admin-order-details.html">3</a></p></div>
+			<div class="admin-order-desc">
+				<p>Hamburger: 2 meals</p>
+				<p>Chicken wings: 2 meals</p>
+			</div>
+			<div class="admin-order-user"><p><a href="user-order-history.html">Mario</a></p></div>
+			<div class="admin-order-action"><p><a href="admin-order-edit.html">Accepted</a></p></div>
+		</div>
+		<br>
+		<div class="flex-container">
+			<div class="admin-order-date"><p>6 September 2018</p></div>
+			<div class="admin-order-number"><p><a href="admin-order-details.html">4</a></p></div>
+			<div class="admin-order-desc">
+				<p>Sandwich: 4 meals</p>
+			</div>
+			<div class="admin-order-user"><p><a href="user-order-history.html">Mario</a></p></div>
+			<div class="admin-order-action"><p><a href="admin-order-edit.html">Accepted</a></p></div>
+		</div>
+		<br>
+		<div class="flex-container">
+			<div class="admin-order-date"><p>9 September 2018</p></div>
+			<div class="admin-order-number"><p><a href="admin-order-details.html">5</a></p></div>
+			<div class="admin-order-desc">
+				<p>Chicken wings: 2 meals</p>
+			</div>
+			<div class="admin-order-user"><p><a href="user-order-history.html">Luigi</a></p></div>
+			<div class="admin-order-action"><p><a href="admin-order-delivered">On Transit</a></p></div>
+		</div>
+		<br>
+		<div class="flex-container">
+			<div class="admin-order-date"><p>10 September 2018</p></div>
+			<div class="admin-order-number"><p><a href="admin-order-details.html">6</a></p></div>
+			<div class="admin-order-desc">
+				<p>Chicken wings: 2 meals</p>
+			</div>
+			<div class="admin-order-user"><p><a href="user-order-history.html">Luigi</a></p></div>
+			<div class="admin-order-action"><p><a href="admin-order-edit.html">Pending Approval</a></p></div>
+		</div>
+		<br>
+	</div>
+	<footer id="index-footer">
+		<div class="footer-content">
+			<small>&copy;2018 Developed by: <span>Ken Maina</span></small>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
