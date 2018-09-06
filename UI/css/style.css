@@ -368,3 +368,31 @@ input[type=password]{
 	color: #000;
 	padding: 5px 0px;
 }
+
+.edit{
+	background-color: #0eaf00;
+	padding: 3px 30px 3px 30px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	color: #000;
+}
+
+.edit:hover{
+	background-color: #fff;
+	border: 1px solid #0eaf00;
+	cursor: pointer;
+}
+
+.delete{
+	background-color: #d60300;
+	padding: 9px 30px 9px 30px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.delete:hover{
+	background-color: #fff;
+	padding: 9px 30px 9px 30px;
+	border: 1px solid #d60300;
+	cursor: pointer;
+}
