@@ -74,6 +74,11 @@ input[type=password]{
 	max-height:auto;
 }
 
+.sublink{
+	padding-left: 10px;
+	font-size: 0.8rem;
+}
+
 /* index.html styles */
 .body-wrapper{
 	height: 100%;
@@ -183,21 +188,21 @@ input[type=password]{
 	background-color: #efe1f4
 }
 
-.order-main {
+.order-main, .admin-main {
 	width: 80%;
 	margin: 0 auto;
 	padding: 20px 0px;
 	text-align: center;
 }
 
-.order-main h1{
+.order-main h1, .admin-main h1{
 	color: #000;
 	padding-bottom: 10px;
 	font-size: 2.5rem;
 }
 
 
-.order-main p{
+.order-main p, .admin-main p{
 	color: #000;
 	padding-bottom: 10px;
 }
@@ -276,4 +281,59 @@ input[type=password]{
 	flex-grow: 1;
 	width: 25%;
 	text-align: center;
+}
+
+/* admin-orders.html page */
+.admin-order-date{
+	flex-grow: 1;
+	width: 20%;
+	text-align: center;
+}
+
+.admin-order-number{
+	flex-grow: 1;
+	width: 20%;
+	text-align: center;
+}
+
+.admin-order-number a{
+	color: #891c75;
+}
+
+.admin-order-number a:hover{
+	color: #47fff2;
+}
+
+.admin-order-desc{
+	flex-grow: 1;
+	width: 20%;
+	text-align: center;
+}
+
+.admin-order-user{
+	flex-grow: 1;
+	width: 20%;
+	text-align: center;
+}
+
+.admin-order-user a{
+	color: #891c75;
+}
+
+.admin-order-user a:hover{
+	color: #47fff2;
+}
+
+.admin-order-action{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.admin-order-action a{
+	color: #891c75;
+}
+
+.admin-order-action a:hover{
+	color: #47fff2;
 }
