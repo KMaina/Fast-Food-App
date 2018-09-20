@@ -90,7 +90,9 @@ input{
 }
 
 .sign-up-content{
-	
+	border-radius: 5px;
+    background-color: #e2e2e2;
+    padding: 20px 40px;
 }
 
 .sign-up-content h1{
