@@ -106,14 +106,16 @@ input{
 }
 
 .submit{
-	padding: 3px 60px 3px 60px;
+	width: 100%;
+	padding: 13px 0px;
 	border: 1px solid #fff;
 	cursor: pointer;
-	background-color: #47fff2;
+	background-color: #0545ad;
+	color: #fff;
 }
 
 .submit:hover{
-	border: 1px solid #47fff2;
+	border: 1px solid #0545ad;
 	background-color: #fff;
-	color: #47fff2;
+	color: #0545ad;
 }
