@@ -8,7 +8,7 @@ a {
 	text-decoration: none;
 }
 
-input{
+.input-text-sign, .input-email-sign, .input-password-sign{
 	border: 1px solid #999;
 	border-radius: 5px;
 	-webkit-appearance: none;
@@ -17,6 +17,11 @@ input{
 	padding: 10px 0px; 
 	text-align: center;
 }
+
+.name{
+	color: #0545ad;
+}
+
 /* index.html styles */
 .body-wrapper{
 	height: 100%;
@@ -67,13 +72,14 @@ input{
 #index-footer{
 	height: 10vh;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e2e2e2;
 }
 
 .footer-content {
 	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .footer-content small{
