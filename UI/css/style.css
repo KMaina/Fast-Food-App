@@ -68,13 +68,13 @@ input[type=text], input[type=password], input[type=email]{
 #index-footer{
 	height: 10vh;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-content {
 	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .footer-content small{
@@ -86,9 +86,9 @@ input[type=text], input[type=password], input[type=email]{
 	display: flex;
 	height: 90vh;
 	text-align: center;
-	background-color: #efe1f4;
 	justify-content: center;
 	align-items: center;
+	background-color: #efe1f4;
 }
 
 .sign-up-content{
@@ -110,11 +110,12 @@ input[type=text], input[type=password], input[type=email]{
 	padding: 13px 0px;
 	border: 1px solid #fff;
 	cursor: pointer;
-	background-color: #47fff2;
+	background-color: #0545ad;
+	color: #fff;
 }
 
 .submit:hover{
-	border: 1px solid #47fff2;
+	border: 1px solid #0545ad;
 	background-color: #fff;
-	color: #47fff2;
+	color: #0545ad;
 }
