@@ -106,7 +106,8 @@ input[type=text], input[type=password], input[type=email]{
 }
 
 .submit{
-	padding: 3px 60px 3px 60px;
+	width: 100%;
+	padding: 13px 0px;
 	border: 1px solid #fff;
 	cursor: pointer;
 	background-color: #47fff2;
