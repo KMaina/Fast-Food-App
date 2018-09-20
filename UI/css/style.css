@@ -71,6 +71,7 @@ input[type=text], input[type=password], input[type=email]{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #e2e2e2;
 }
 
 .footer-content {
@@ -91,7 +92,9 @@ input[type=text], input[type=password], input[type=email]{
 }
 
 .sign-up-content{
-	
+	border-radius: 5px;
+    background-color: #e2e2e2;
+    padding: 20px 40px;
 }
 
 .sign-up-content h1{
