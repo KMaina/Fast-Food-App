@@ -8,7 +8,7 @@ a {
 	text-decoration: none;
 }
 
-input[type=text], input[type=password], input[type=email]{
+.input-text-sign, .input-email-sign, .input-password-sign{
 	border: 1px solid #999;
 	border-radius: 5px;
 	-webkit-appearance: none;
@@ -16,6 +16,10 @@ input[type=text], input[type=password], input[type=email]{
 	width: 100%;
 	padding: 10px 0px; 
 	text-align: center;
+}
+
+.name{
+	color: #0545ad;
 }
 
 /* index.html styles */
