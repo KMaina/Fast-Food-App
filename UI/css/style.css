@@ -8,13 +8,16 @@ a {
 	text-decoration: none;
 }
 
-input{
+input[type=text], input[type=password], input[type=email]{
 	border: 1px solid #999;
 	border-radius: 5px;
 	-webkit-appearance: none;
 	font-family: 'Mukta', sans-serif;
-	/*border-top-style: none;*/
+	width: 100%;
+	padding: 10px 0px; 
+	text-align: center;
 }
+
 /* index.html styles */
 .body-wrapper{
 	height: 100%;
@@ -24,11 +27,6 @@ input{
 #index-main{
 	height: 90vh;
 	background-image: url("../img/landing.jpg");
-
-    /* Full height */
-    /*height: 100%; */
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,15 +83,16 @@ input{
 
 /* Sign Up Page */
 #sign-up-main{
+	display: flex;
 	height: 90vh;
 	text-align: center;
 	background-color: #efe1f4;
+	justify-content: center;
+	align-items: center;
 }
 
 .sign-up-content{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	
 }
 
 .sign-up-content h1{
