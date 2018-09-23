@@ -167,16 +167,18 @@ input[type=password]{
 }
 
 .submit{
-	padding: 3px 60px 3px 60px;
+	width: 100%;
+	padding: 13px 0px;
 	border: 1px solid #fff;
 	cursor: pointer;
-	background-color: #47fff2;
+	background-color: #0545ad;
+	color: #fff;
 }
 
 .submit:hover{
-	border: 1px solid #47fff2;
+	border: 1px solid #0545ad;
 	background-color: #fff;
-	color: #47fff2;
+	color: #0545ad;
 }
 
 /* user-order.html */
@@ -198,58 +200,46 @@ input[type=password]{
 	font-size: 2.5rem;
 }
 
-
 .order-main p{
 	color: #000;
 	padding-bottom: 10px;
 }
 
-.flex-container{
+.flex-items{
 	display: flex;
-	margin: 0 auto;
-	width: 80%;
 	align-items: center;
-	border: 1px solid white;
-	border-radius: 5px;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.flex-container > div {
-	
-	margin: 10px;
-	padding: 5px;
-	/*font-size: 30px;*/
-	
+.flex-items > form {
+	margin: 30px;
+	padding: 5px;	
+	background-color: #e2e2e2;
+	width: 400px;
 }
 
-.flex-container p {
+.flex-items p {
 	color: #000;
+	text-align: center;
 }
 
 .food-img{
-	flex-grow: 1;
-	width: 20%;
-	width: 100px;
-	height: 100px;
+	width: 100%;
 }
 
 .food-desc{
-	flex-grow: 2;
-	width: 40%;
 	text-align: center;
-	/*justify-content: center;*/
-}
-
-.food-checkbox{
-	flex-grow: 1;
-	width: 10%;
+	padding: 10px 0px;
 }
 
 .food-input{
-	flex-grow: 1;
-	width: 5%;
+	width: 100%;
 	text-align: center;
+	padding: 10px 0px;
 }
 
-.food-input input[type=text]{
-	width: 30px;
+.food-input > input[type=text]{
+	width: 50%;
+
 }
