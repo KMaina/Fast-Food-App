@@ -175,7 +175,7 @@ input[type=password]{
 /* user-order.html */
 .main-wrapper{
 	/*height: 90vh;*/
-	background-color: #efe1f4
+	background-color: #fff;
 }
 
 .order-main {
@@ -202,7 +202,6 @@ input[type=password]{
 	margin: 0 auto;
 	width: 80%;
 	align-items: center;
-	/*background-color: pink;*/
 	border: 1px solid white;
 	border-radius: 5px;
 }
