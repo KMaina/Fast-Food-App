@@ -16,6 +16,11 @@ input[type=password]{
 	/*border-top-style: none;*/
 }
 
+
+.name{
+	color: #0545ad;
+}
+
 /* Sliding Menu*/
 #menu{
 	position: fixed;
@@ -69,7 +74,7 @@ input[type=password]{
 }
 
 .avi img {
-	width:100%: 
+	width:100%;
 	max-height:auto;
 }
 
@@ -125,15 +130,17 @@ input[type=password]{
 	width: 100%;
 }
 
-.footer-content {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+#index-footer{
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e2e2e2;
 }
 
-.footer-content small{
-	font-size: 0.75rem;
+.footer-content {
+	text-align: center;
 }
 
 /* Sign Up Page */
