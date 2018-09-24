@@ -8,12 +8,8 @@ a {
 	text-decoration: none;
 }
 
-input[type=password]{
-	border: 1px solid #999;
-	border-radius: 5px;
-	-webkit-appearance: none;
-	font-family: 'Mukta', sans-serif;
-	/*border-top-style: none;*/
+.name{
+	color: #0545ad;
 }
 
 
@@ -129,13 +125,14 @@ input[type=password]{
 #index-footer{
 	height: 10vh;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e2e2e2;
 }
 
 .footer-content {
 	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .footer-content small{
