@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Admin- Food</title>
+</head>
+<body>
+	<div class="main-wrapper">
+		<nav id="menu">
+			<div class="toggle-btn" onclick="toggleSidebar()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li>
+					<div><img src="img/admin.jpg" class="avi"></div>
+					<p>Hello, Ken <span class="copyright">(Admin)</span></p>
+					<p><a href="sign-in.html">Log out</a></p>
+				</li>
+				<ul>
+					<li><a href="admin-orders.html" class="">Orders</a></li>
+					<li><a href="admin-order-edit.html" class="sublink">Accept/Decline Orders</a></li>
+					<li><a href="admin-order-delivered" class="sublink">Order Status</a></li>
+				</ul>
+				<ul>
+					<li><a href="admin-food.html">Food Items</a></li>
+					<li><a href="admin-add-food.html" class="sublink">Add Food Item</a></li>
+				</ul>
+			</ul>
+		</nav>
+		<div class="order-main">
+			<h1>Admin- Food Overview</h1>
+			<p>Have an overview of the catalogs of food on dispay here. Edit or delete an item using the buttons provided.</p>
+		</div>
+		<form>
+			<div class="flex-container">	
+				<div><img src="img/burger.jpg" class="food-img"></div>
+				<div class="food-desc"><p>A standard hamburger served with French fries and salad.</p></div>
+				<div class="food-checkbox"><p><a href="food-edit.html" class="edit">Edit</a></p></div>
+				<div class="food-input"><p><input type="submit" class="delete" value="delete"></p></div>
+			</div>
+			<br>
+			<div class="flex-container">	
+				<div><img src="img/french fries.jpg" class="food-img"></div>
+				<div class="food-desc"><p>Enjoy classic French Fries as you enjoy a movie or on a picnic.</p></div>
+				<div class="food-checkbox"><p><a href="food-edit.html" class="edit">Edit</a></p></div>
+				<div class="food-input"><p><input type="submit" class="delete" value="delete"></p></div>
+			</div>
+			<br>
+			<div class="flex-container">	
+				<div><img src="img/pizza.jpg" class="food-img"></div>
+				<div class="food-desc"><p>An extra large pzza that can be enjoyed with the whole company over a game of cards.</p></div>
+				<div class="food-checkbox"><p><a href="food-edit.html" class="edit">Edit</a></p></div>
+				<div class="food-input"><p><input type="submit" class="delete" value="delete"></p></div>
+			</div>
+			<br>
+			<div class="flex-container">	
+				<div><img src="img/sandwich.jpg" class="food-img"></div>
+				<div class="food-desc"><p>Perfect for your 10am tea as you unwind in the early morning!</p></div>
+				<div class="food-checkbox"><p><a href="food-edit.html" class="edit">Edit</a></p></div>
+				<div class="food-input"><p><input type="submit" class="delete" value="delete"></p></div>
+			</div>
+			<br>
+			<div class="flex-container">	
+				<div><img src="img/chicken wing.jpg" class="food-img"></div>
+				<div class="food-desc"><p>Enjoy 8 juicy chicken wings as a sidemeal as you watch your game of football.</p></div>
+				<div class="food-checkbox"><p><a href="food-edit.html" class="edit">Edit</a></p></div>
+				<div class="food-input"><p><input type="submit" class="delete" value="delete"></p></div>
+			</div>
+			<br>
+		</form>
+		<br>
+	</div>
+	<footer id="index-footer">
+		<div class="footer-content">
+			<small>&copy;2018 Developed by: <span>Ken Maina</span></small>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
