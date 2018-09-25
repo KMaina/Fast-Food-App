@@ -86,6 +86,10 @@ a {
 	font-size: 0.75rem;
 }
 
+.copyright{
+	color: #47fff2;
+}
+
 /* Sign Up Page */
 #sign-up-main{
 	display: flex;
