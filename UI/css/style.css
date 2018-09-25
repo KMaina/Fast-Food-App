@@ -8,14 +8,9 @@ a {
 	text-decoration: none;
 }
 
-input[type=password]{
-	border: 1px solid #999;
-	border-radius: 5px;
-	-webkit-appearance: none;
-	font-family: 'Mukta', sans-serif;
-	/*border-top-style: none;*/
+.name{
+	color: #0545ad;
 }
-
 
 /* Sliding Menu*/
 #menu{
@@ -129,13 +124,14 @@ input[type=password]{
 #index-footer{
 	height: 10vh;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e2e2e2;
 }
 
 .footer-content {
 	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .footer-content small{
@@ -170,16 +166,18 @@ input[type=password]{
 }
 
 .submit{
-	padding: 3px 60px 3px 60px;
+	width: 100%;
+	padding: 13px 0px;
 	border: 1px solid #fff;
 	cursor: pointer;
-	background-color: #47fff2;
+	background-color: #0545ad;
+	color: #fff;
 }
 
 .submit:hover{
-	border: 1px solid #47fff2;
+	border: 1px solid #0545ad;
 	background-color: #fff;
-	color: #47fff2;
+	color: #0545ad;
 }
 
 /* user-order.html */
