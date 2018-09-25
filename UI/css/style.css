@@ -339,9 +339,11 @@ input[type=password]{
 /*admin-order-edit.html styles*/
 .admin-order-edit{
 	height: 90vh;
-	width: 80%;
-	margin: 0 auto;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .admin-info{
@@ -394,8 +396,8 @@ input[type=password]{
 }
 
 .admin-add-food{
-	padding-top: 10%;
-
+	/* padding-top: 10%; */
+	
 }
 
 .admin-add-food p{
