@@ -207,3 +207,48 @@ a {
 .food-input > input[type=text]{
 	width: 50%;
 }
+
+/*user-order-history.html styles*/
+.flex-order-history{
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+	align-items: center;
+	background-color: #e2e2e2;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+.flex-order-history > div {
+	margin: 10px;
+	padding: 5px;
+	
+}
+
+.flex-order-history p {
+	color: #000;
+}
+
+.order-date{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.order-number{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.order-desc{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
+
+.order-action{
+	flex-grow: 1;
+	width: 25%;
+	text-align: center;
+}
