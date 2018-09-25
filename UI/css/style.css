@@ -396,8 +396,9 @@ input[type=password]{
 }
 
 .admin-add-food{
-	/* padding-top: 10%; */
-	
+	border-radius: 5px;
+    background-color: #e2e2e2;
+	padding: 20px 40px; 
 }
 
 .admin-add-food p{
