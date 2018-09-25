@@ -1,0 +1,138 @@
+/* General styles */
+body{
+	font-family: 'Mukta', sans-serif;
+	line-height: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.name{
+	color: #0545ad;
+}
+
+
+/* Sliding Menu*/
+#menu{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-color: #0a0416;
+	left: -200px;
+	transition: all 0.3s ease;
+}
+
+#menu.open{
+	left:0px;
+}
+
+#menu ul li{
+	padding: 15px 10px;
+	border-bottom: 1px solid white;
+}
+
+#menu ul li a{
+	color: white;
+} 
+
+#menu ul li a:hover{
+	color: #47fff2;
+} 
+
+#menu ul li a:active{
+	color: #ff84a5;
+} 
+
+
+#menu .toggle-btn{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+}
+
+#menu .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background-color: #47fff2;
+	margin: 5px 0px;
+}
+
+.avi{
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+}
+
+.avi img {
+	width:100%: 
+	max-height:auto;
+}
+
+.sublink{
+	padding-left: 10px;
+	font-size: 0.8rem;
+}
+
+#index-footer{
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e2e2e2;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+.footer-content small{
+	font-size: 0.75rem;
+}
+
+.submit{
+	width: 100%;
+	padding: 13px 0px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	background-color: #0545ad;
+	color: #fff;
+}
+
+.submit:hover{
+	border: 1px solid #0545ad;
+	background-color: #fff;
+	color: #0545ad;
+}
+
+/* user-order.html */
+.main-wrapper{
+	background-color: #fff;
+}
+/*admin-order-edit.html styles*/
+.admin-order-edit{
+	height: 90vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-info{
+	border-radius: 5px;
+    background-color: #e2e2e2;
+	padding: 20px 40px;	
+}
+
+.admin-info h1{
+	font-size: 2.5rem;
+	padding-bottom: 10px;
+}
+
+.admin-info p{
+	color: #000;
+	padding-bottom: 10px;
+}
