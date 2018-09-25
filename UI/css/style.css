@@ -22,51 +22,72 @@ a {
 	color: #0545ad;
 }
 
+/* Sliding Menu*/
+#menu{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-color: #0a0416;
+	left: -200px;
+	transition: all 0.3s ease;
+}
+
+#menu.open{
+	left:0px;
+}
+
+#menu ul li{
+	padding: 15px 10px;
+	border-bottom: 1px solid white;
+}
+
+#menu ul li a{
+	color: white;
+} 
+
+#menu ul li a:hover{
+	color: #47fff2;
+} 
+
+#menu ul li a:active{
+	color: #ff84a5;
+} 
+
+
+#menu .toggle-btn{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+}
+
+#menu .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background-color: #47fff2;
+	margin: 5px 0px;
+}
+
+.avi{
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+}
+
+.avi img {
+	width:100%;
+	max-height:auto;
+}
+
 /* index.html styles */
 .body-wrapper{
 	height: 100%;
 	width: 100%;
 }
 
-#index-main{
-	height: 90vh;
-	background-image: url("../img/landing.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-.landing{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.landing h1, p {
-	color: #fff;
-}
-
-.landing h1{
-	font-size: 2.5rem;
-	padding-bottom: 20px;
-}
-
-.landing p{
-	padding-bottom: 10px;
-}
-
-.button{
-	text-decoration: none;
-	color: #fff;
-	padding: 2px 40px 2px 40px;
-	border: 1px solid #fff;
-	margin-right: 30px;
-}
-
-.button:hover{
-	background-color: white;
-	color: black;
+#index-footer{
+	height: 10vh;
+	width: 100%;
 }
 
 #index-footer{
@@ -84,10 +105,6 @@ a {
 
 .footer-content small{
 	font-size: 0.75rem;
-}
-
-.copyright{
-	color: #47fff2;
 }
 
 /* Sign Up Page */
@@ -114,7 +131,7 @@ a {
 	color: #000;
 	padding-bottom: 20px;
 }
-
+  
 .submit{
 	width: 100%;
 	padding: 13px 0px;
@@ -128,8 +145,65 @@ a {
 	border: 1px solid #0545ad;
 	background-color: #fff;
 	color: #0545ad;
-<<<<<<< HEAD
 }
-=======
+
+/* user-order.html */
+.main-wrapper{
+	background-color: #fff;
 }
->>>>>>> 37cf4cc7107d68453455b43f1a67a665932dd820
+
+.order-main {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.order-main h1{
+	color: #000;
+	padding-bottom: 10px;
+	font-size: 2.5rem;
+}
+
+.order-main p{
+	color: #000;
+	padding-bottom: 10px;
+}
+
+.flex-items{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.flex-items > form {
+	margin: 30px;
+	padding: 5px;	
+	background-color: #e2e2e2;
+	width: 400px;
+}
+
+.flex-items p {
+	color: #000;
+	text-align: center;
+}
+
+.food-img{
+	width: 100%;
+}
+
+.food-desc{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.food-input{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.food-input > input[type=text]{
+	width: 50%;
+}
