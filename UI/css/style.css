@@ -252,3 +252,38 @@ a {
 	width: 25%;
 	text-align: center;
 }
+
+/*admin-order-edit.html styles*/
+.admin-order-edit{
+	height: 90vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-add-food{
+	border-radius: 5px;
+    background-color: #e2e2e2;
+	padding: 20px 40px; 
+}
+
+.admin-add-food p{
+	padding-bottom: 20px;
+	color: #000;
+
+}
+
+.admin-add-food h1{
+	padding-bottom: 10px;
+	font-size: 2.5rem;
+	color: #000;
+}
+
+textarea {
+	padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
